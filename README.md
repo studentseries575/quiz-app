@@ -45,6 +45,14 @@ This project is a responsive quiz application developed using HTML, CSS, JavaScr
 
 https://studentseries575.github.io/quiz-app/
 
+## 🔗 Quick Access
+
+| Feature | Link |
+|--------|------|
+| 🚀 Start Quiz | [Open](https://studentseries575.github.io/quiz-app/) |
+| ❓ Attempt Quiz | [Open](https://studentseries575.github.io/quiz-app/?page=quiz) |
+| 📊 View Result | [Open](https://studentseries575.github.io/quiz-app/?page=result) |
+
 ---
 
 ## 👩‍💻 Author
