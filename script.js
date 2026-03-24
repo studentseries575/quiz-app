@@ -252,3 +252,14 @@ function restartQuiz() {
 function toggleMode() {
   document.body.classList.toggle("light-mode");
 }
+window.onload = function () {
+  const params = new URLSearchParams(window.location.search);
+  const page = params.get("page");
+
+  if (page === "quiz") {
+    startQuiz();
+  } 
+  else if (page === "result") {
+    showResult();
+  }
+};
