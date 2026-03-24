@@ -43,7 +43,7 @@ This project is a responsive quiz application developed using HTML, CSS, JavaScr
 
 ## 🔗 Live Repository
 
-[PASTE YOUR LINK HERE](https://github.com/your-username/quiz-app)
+https://studentseries575.github.io/quiz-app/
 
 ---
 
