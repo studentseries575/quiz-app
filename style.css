@@ -1,0 +1,104 @@
+body {
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.07);
+  border-radius: 20px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 0 30px rgba(0,0,0,0.4);
+}
+
+.title {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.subtitle {
+  color: #9da8b8;
+}
+
+.quiz-card {
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 20px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 0 25px rgba(0,0,0,0.3);
+}
+
+#question {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+#options button {
+  width: 100%;
+  margin-top: 12px;
+  border-radius: 12px;
+  padding: 14px;
+  background: #334155;
+  color: white;
+  border: none;
+  transition: 0.3s;
+}
+
+#options button:hover {
+  transform: scale(1.05);
+  background: #475569;
+}
+
+.active {
+  background: #0ea5e9 !important;
+}
+
+.correct {
+  background: #22c55e !important;
+}
+
+.wrong {
+  background: #ef4444 !important;
+}
+
+.timer {
+  color: #facc15;
+  font-weight: bold;
+}
+
+.progress-segment {
+  flex: 1;
+  height: 14px;
+  margin: 4px;
+  background: #475569;
+  border-radius: 10px;
+}
+
+.btn-start {
+  background: linear-gradient(45deg, #22c55e, #16a34a);
+  color: white;
+  padding: 12px 30px;
+  border-radius: 12px;
+  border: none;
+}
+
+.btn-start:hover {
+  transform: scale(1.08);
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+table {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.light-mode {
+  background: white;
+  color: black;
+}
+
+.light-mode .quiz-card {
+  background: #f1f5f9;
+}
